@@ -37,14 +37,16 @@ function AboutUs() {
 
         {/* About Carousel Start */}
         <div className="carousel w-1/2 my-16 m-auto">
-          <div className=" w-1/2 flex">
+        
           <div id="slide1" className="carousel-item relative w-full"> 
             <div className=" flex flex-col items-center justify-center gap-4 px-[15%]">
               <img
                 src={apj}
                 className="w-40 rounded-full border-2 border-gray-400"
               />
-              <div className="absolute w-[50%] flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+              <p className=" text-xl text-gray-200">{"If you fail, never give up because FAIL means First Attempt In Learning."}</p>
+              <h3 className=" text-2xl font-semibold">A. P. J. Abdul Kalam</h3>
+              <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                 <a href="#slide5" className="btn btn-circle">
                   ❮
                 </a>
@@ -62,7 +64,9 @@ function AboutUs() {
                   src={billGates}
                   className="w-40 rounded-full border-2 border-gray-400"
                 />
-                <div className="absolute w-[50%] flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <p className=" text-xl text-gray-200">{"Don’t compare yourself with anyone in this world…if you do so, you are insulting yourself."}</p>
+              <h3 className=" text-2xl font-semibold">Bill Gates</h3>
+                <div className="absolute  flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                   <a href="#slide1" className="btn btn-circle">
                     ❮
                   </a>
@@ -80,7 +84,9 @@ function AboutUs() {
                   src={nelsonMandela}
                   className="w-40 rounded-full border-2 border-gray-400"
                 />
-                <div className="absolute placeholder:w-[50%] flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <p className=" text-xl text-gray-200">{"Education is the powerful tool can you to change the world."}</p>
+              <h3 className=" text-2xl font-semibold">Nelson Mandela</h3>
+                <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                   <a href="#slide2" className="btn btn-circle">
                     ❮
                   </a>
@@ -99,7 +105,9 @@ function AboutUs() {
                   src={steveJobs}
                   className="w-40 rounded-full border-2 border-gray-400"
                 />
-                <div className="absolute  w-[50%] flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <p className=" text-xl text-gray-200">{"We're here to put a dent in the universe. Otherwise why else even be here?"}</p>
+              <h3 className=" text-2xl font-semibold">Steve Jobs</h3>
+                <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                   <a href="#slide3" className="btn btn-circle">
                     ❮
                   </a>
@@ -118,7 +126,9 @@ function AboutUs() {
                   src={einstein}
                   className="w-40 rounded-full border-2 border-gray-400"
                 />
-                <div className="absolute w-[50%] flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                <p className=" text-xl text-gray-200">{"There are only two ways to live your life. One is as though nothing is a miracle. The other is as though everything is a miracle."}</p>
+              <h3 className=" text-2xl font-semibold">Albert Einstein</h3>
+                <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
                   <a href="#slide4" className="btn btn-circle">
                     ❮
                   </a>
@@ -129,7 +139,7 @@ function AboutUs() {
               </div>
             </div>
           </div>
-           </div>
+           
         </div>
 
         
